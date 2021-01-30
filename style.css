@@ -44,7 +44,7 @@ h1, h2{
 /* 2 columns section */
 .container{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     margin-top: 10px;
 }
 
@@ -61,14 +61,18 @@ li{
     height: 200px;
 }
 
+.column-2 li:last-child{
+    margin-bottom: 50px;
+}
+
 .btn {
     color: #fff;
     text-transform: uppercase;
     background-color: #1b4074;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
-    margin: 12px;
+    margin: 42px;
     line-height: 1.5;
 }
 /* end 2 columns section */
